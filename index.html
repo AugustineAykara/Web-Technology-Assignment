@@ -64,13 +64,15 @@
 
                         <div class="col-md-6">
                             <label>Password</label>
-                            <input type="password" class="form-control" name="password">
+                            <input type="password" class="form-control" name="password" onkeyup="passwordStrength()">
+                            <div id="message"></div>
                         </div>
-
+                        
                         <div class="col-md-6">
                             <label>Confirm Password</label>
                             <input type="password" class="form-control" name="confirmPassword">
                         </div>
+
 
                     </div>
 
