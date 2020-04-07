@@ -1,4 +1,3 @@
-
 function passwordStrength() {
     message = document.getElementById('message')
     password = document.form.password.value
